@@ -526,7 +526,7 @@ function placeCamera(){
   if(shot==='head'){
     camera.position.set(0,0.10,4.35); camera.lookAt(0,0.02,0);
   } else {
-    camera.position.set(0,-0.75,8.4); camera.lookAt(0,-1.2,0);
+    camera.position.set(0,-0.6,9.0); camera.lookAt(0,-1.05,0);
   }
 }
 placeCamera();
